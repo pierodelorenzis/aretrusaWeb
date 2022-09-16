@@ -69,8 +69,8 @@ public class Collection {
        }
 
        public void setNumBooks(Integer numBooks) {
-           this.numBooks = numBooks;
-
-   }
+        this.numBooks = numBooks;
+    }
+}
 
 }
