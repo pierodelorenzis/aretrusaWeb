@@ -2,7 +2,7 @@ package com.example.aretrusaWeb.model;
 
 public class StateBorrow {
 
-    private enum Element {
+    private enum element {
         pending, inProgress, finished
     }
 
