@@ -1,7 +1,9 @@
 package com.example.aretrusaWeb.model;
 
-public class Feedback {
+import javax.persistence.Id;
 
+public class Feedback {
+    @Id
     private int idFeedback;
     private int Feedback;
     private int idBook;
