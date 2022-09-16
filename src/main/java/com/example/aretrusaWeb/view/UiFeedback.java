@@ -1,20 +1,20 @@
 package com.example.aretrusaWeb.view;
 
+import com.example.aretrusaWeb.model.Feedback;
+
 public class UiFeedback {
-    public int Feedback;
+    public int feedback;
+
+
+    public UiFeedback(Feedback feedback) {
+        this.feedback=feedback.getFeedback();
+    }
 
     public UiFeedback() {
     }
 
-    public UiFeedback(int feedback) {
-        Feedback = feedback;
-    }
-
     public int getFeedback() {
-        return Feedback;
-    }
-    public void setFeedback(int feedback) {
-        Feedback = feedback;
+        return feedback;
     }
 
 }
