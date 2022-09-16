@@ -1,6 +1,8 @@
 package com.example.aretrusaWeb.view;
 
-public class UiCustomer {
+import com.example.aretrusaWeb.model.Customer;
+
+public class UiCustomer extends UiUser {
 
     public float balance;
     public int bookLost;
@@ -8,12 +10,12 @@ public class UiCustomer {
     public int bookDamage;
     public int evaluation;
 
-    public UiCustomer(float balance, int bookLost, int bookDelay, int bookDamage, int evaluation) {
-        this.balance = balance;
-        this.bookLost = bookLost;
-        this.bookDelay = bookDelay;
-        this.bookDamage = bookDamage;
-        this.evaluation = evaluation;
+    public UiCustomer(Customer customer ) {
+        this.balance = customer.getBalance();
+        this.bookLost = customer.getBookLost();
+        this.bookDelay = customer.getBookDelay();
+        this.bookDamage = customer.getBookDamage();
+        this.evaluation = customer.getEvaluation();
     }
 
     public UiCustomer() {
