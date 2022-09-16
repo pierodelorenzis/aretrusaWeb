@@ -1,8 +1,10 @@
 package com.example.aretrusaWeb.model;
 
+import javax.persistence.Id;
+
 public class BookCase {
 
-
+    @Id
     private int bookcase;
     private int idAisle;
 

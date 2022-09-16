@@ -1,8 +1,10 @@
 package com.example.aretrusaWeb.model;
 
+import javax.persistence.Id;
 import java.util.Date;
 
 public class Collection {
+   @Id
     private String id;
     private String name;
     private Date startYear;

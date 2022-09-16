@@ -1,6 +1,9 @@
 package com.example.aretrusaWeb.model;
 
+import javax.persistence.Id;
+
 public class Genre {
+    @Id
     private Integer id;
     private String name;
 
