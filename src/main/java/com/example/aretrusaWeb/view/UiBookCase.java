@@ -2,20 +2,21 @@ package com.example.aretrusaWeb.view;
 
 public class UiBookCase {
 
-    public int idAisle;
+    private int bookcase;
 
     public UiBookCase() {
     }
 
-    public UiBookCase(int idAisle) {
-        this.idAisle = idAisle;
+    public UiBookCase(int bookcase) {
+        this.bookcase = bookcase;
     }
 
-    public int getIdAisle() {
-        return idAisle;
+    public int getBookcase() {
+        return bookcase;
     }
 
-    public void setIdAisle(int idAisle) {
-        this.idAisle = idAisle;
+    public void setBookcase(int bookcase) {
+        this.bookcase = bookcase;
     }
 }
+
