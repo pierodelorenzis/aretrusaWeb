@@ -10,6 +10,9 @@ public class UiBookCase {
         this.bookcase = bookCase.getBookcase();
     }
 
+    public UiBookCase() {
+    }
+
     public int getBookcase() {
         return bookcase;
     }

@@ -11,6 +11,9 @@ public class UiAisle {
         this.aisle = aisle.getAisle();
     }
 
+    public UiAisle() {
+    }
+
     public int getAisle() {
         return aisle;
     }

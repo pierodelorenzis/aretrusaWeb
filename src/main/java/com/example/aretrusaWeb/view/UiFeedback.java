@@ -10,6 +10,9 @@ public class UiFeedback {
         this.feedback=feedback.getFeedback();
     }
 
+    public UiFeedback() {
+    }
+
     public int getFeedback() {
         return feedback;
     }
