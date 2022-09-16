@@ -25,9 +25,6 @@ public class Book {
     private boolean sell;
     private int numBorrow;
 
-    public Book() {
-    }
-
     public Book(String isbn, String name, int quantity, String description, int year, int idCollection, int page, int idEditor, int idAuthor, int pegi, float price, float currentPrice, int idBookcase, int idAisle, int idFeeback, boolean sell, int numBorrow) {
         this.isbn = isbn;
         this.name = name;
