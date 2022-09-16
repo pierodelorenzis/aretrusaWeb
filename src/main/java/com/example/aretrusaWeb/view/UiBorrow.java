@@ -11,6 +11,10 @@ public class UiBorrow {
     public Date startReservation;
     public Date endReservation;
 
+    public UiBorrow ()
+    {
+
+    }
     public UiBorrow(Borrow borrow) {
         this.startDate = borrow.getStartDate();
         this.endDate = borrow.getEndDate();
