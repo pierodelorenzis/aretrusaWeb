@@ -1,5 +1,7 @@
 package com.example.aretrusaWeb.view;
 
+import com.example.aretrusaWeb.model.Editor;
+
 public class UiEditor {
 
     public String name;
@@ -7,11 +9,11 @@ public class UiEditor {
     public String address;
     public String telephone;
 
-    public UiEditor(String name, String city, String address, String telephone){
-        this.name = name;
-        this.city = city;
-        this.address = address;
-        this.telephone = telephone;
+    public UiEditor(Editor editor){
+        this.name = editor.getName();
+        this.city = editor.getCity();
+        this.address = editor.getAddress();
+        this.telephone = editor.getTelephone();
     }
 
     public UiEditor(){
@@ -22,31 +24,17 @@ public class UiEditor {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getCity() {
         return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 
     public String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
 
     public String getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
-    }
 }
