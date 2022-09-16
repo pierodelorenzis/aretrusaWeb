@@ -25,10 +25,6 @@ public class Editor {
         this.telephone = telephone;
     }
 
-    public Editor(){
-
-    }
-
     public int getIdEditor() {
         return idEditor;
     }

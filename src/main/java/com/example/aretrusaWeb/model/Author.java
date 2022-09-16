@@ -13,16 +13,12 @@ public class Author {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private int idAuthor;
     private String name;
-    private String lastname;
+    private String lastName;
 
-    public Author(int idAuthor, String name, String lastname){
+    public Author(int idAuthor, String name, String lastName){
         this.idAuthor = idAuthor;
         this.name = name;
-        this.lastname = lastname;
-    }
-
-    public Author(){
-
+        this.lastName = lastName;
     }
 
     public int getIdAuthor() {
@@ -41,11 +37,11 @@ public class Author {
         this.name = name;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }

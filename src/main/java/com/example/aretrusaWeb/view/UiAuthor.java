@@ -1,14 +1,16 @@
 package com.example.aretrusaWeb.view;
 
 
+import com.example.aretrusaWeb.model.Author;
+
 public class UiAuthor {
 
     public String name;
-    public String lastname;
+    public String lastName;
 
-    public UiAuthor(String name, String lastname){
-        this.name = name;
-        this.lastname = lastname;
+    public UiAuthor(Author author){
+        this.name = author.getName();
+        this.lastName = author.getLastName();
     }
 
     public UiAuthor(){
@@ -19,15 +21,9 @@ public class UiAuthor {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+
+    public String getLastName() {
+        return lastName;
     }
 
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
 }
