@@ -1,7 +1,12 @@
 package com.example.aretrusaWeb.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Book {
 
+    @Id
     private String isbn;
     private String name;
     private int quantity;
@@ -43,6 +48,7 @@ public class Book {
         this.numBorrow = numBorrow;
     }
 
+    @Id
     public String getIsbn() {
         return isbn;
     }
