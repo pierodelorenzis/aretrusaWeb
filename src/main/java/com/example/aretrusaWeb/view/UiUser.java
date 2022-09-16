@@ -12,6 +12,7 @@ public class UiUser {
     public String username;
     public String password;
     public String cf;
+
     public String name;
     public String surname;
     public Date birthdate;
@@ -36,5 +37,51 @@ public class UiUser {
         this.role = user.getRole();
     }
 
+    public String getEmail() {
+        return email;
+    }
 
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getCf() {
+        return cf;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public Date getBirthdate() {
+        return birthdate;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public String getRole() {
+        return role;
+    }
 }
