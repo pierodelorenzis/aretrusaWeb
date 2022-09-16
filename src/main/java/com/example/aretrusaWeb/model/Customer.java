@@ -12,6 +12,7 @@ public class Customer extends User{
 
 
     public Customer(float balance, int bookLost, int bookDelay, int bookDamage, int evaluation) {
+        super();
         this.balance = balance;
         this.bookLost = bookLost;
         this.bookDelay = bookDelay;
