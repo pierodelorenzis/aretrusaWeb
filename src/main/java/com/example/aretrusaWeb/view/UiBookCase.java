@@ -2,7 +2,7 @@ package com.example.aretrusaWeb.view;
 
 public class UiBookCase {
 
-    private int bookcase;
+    public int bookcase;
 
     public UiBookCase() {
     }
