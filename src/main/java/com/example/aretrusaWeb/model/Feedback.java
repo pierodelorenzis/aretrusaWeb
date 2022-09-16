@@ -10,13 +10,13 @@ public class Feedback {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private int idFeedback;
-    private int Feedback;
+    private int feedback;
     private int idBook;
     private int idBorrow;
 
     public Feedback(int idFeedback, int feedback, int idBook, int idBorrow) {
         this.idFeedback = idFeedback;
-        Feedback = feedback;
+        this.feedback = feedback;
         this.idBook = idBook;
         this.idBorrow = idBorrow;
     }
@@ -26,7 +26,7 @@ public class Feedback {
     }
 
     public int getFeedback() {
-        return Feedback;
+        return feedback;
     }
 
     public int getIdBook() {
@@ -42,7 +42,7 @@ public class Feedback {
     }
 
     public void setFeedback(int feedback) {
-        Feedback = feedback;
+        this.feedback = feedback;
     }
 
     public void setIdBook(int idBook) {
