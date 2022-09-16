@@ -1,12 +1,16 @@
 package com.example.aretrusaWeb.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
 public class User {
 
     private String email;
     private String username;
     private String password;
+    @Id
     private String cf;
     private String name;
     private String surname;
