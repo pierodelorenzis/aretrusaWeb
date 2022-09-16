@@ -1,5 +1,7 @@
 package com.example.aretrusaWeb.view;
 
+import com.example.aretrusaWeb.model.Genre;
+
 public class UIGenre {
 
     public String name;
@@ -8,15 +10,13 @@ public class UIGenre {
 
     }
 
-    public UIGenre(String name) {
-        this.name = name;
+    public UIGenre(Genre genre ) {
+        this.name = genre.getName();
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
 }

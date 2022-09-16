@@ -27,9 +27,6 @@ public class Collection {
         this.numBooks = numBooks;
     }
 
-   public Collection (){
-
-   }
 
        public String getId() {
            return id;
