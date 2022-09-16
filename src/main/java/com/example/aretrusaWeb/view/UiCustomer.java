@@ -1,6 +1,6 @@
 package com.example.aretrusaWeb.view;
 
-public class UiCustomer {
+public class UiCustomer extends UiUser {
 
     public float balance;
     public int bookLost;

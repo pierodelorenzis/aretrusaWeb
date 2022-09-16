@@ -2,7 +2,7 @@ package com.example.aretrusaWeb.model;
 
 import javax.persistence.Entity;
 
-public class Customer {
+public class Customer extends User{
 
     private float balance;
     private int bookLost;
