@@ -1,6 +1,6 @@
 package com.example.aretrusaWeb.view;
 
-public class UIGenre {ù
+public class UIGenre {
 
     public String name;
 
