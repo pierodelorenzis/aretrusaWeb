@@ -10,8 +10,6 @@ public class Customer extends User{
     private int bookDamage;
     private int evaluation;
 
-    public Customer() {
-    }
 
     public Customer(float balance, int bookLost, int bookDelay, int bookDamage, int evaluation) {
         this.balance = balance;
