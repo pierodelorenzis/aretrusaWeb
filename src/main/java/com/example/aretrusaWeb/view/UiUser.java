@@ -22,6 +22,11 @@ public class UiUser {
     public String telephone;
     public String role;
 
+    public UiUser()
+    {
+
+    }
+
     public UiUser(User user) {
         this.email = user.getEmail();
         this.username = user.getUsername();
