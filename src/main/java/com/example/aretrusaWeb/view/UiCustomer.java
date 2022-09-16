@@ -1,24 +1,22 @@
-package com.example.aretrusaWeb.model;
+package com.example.aretrusaWeb.view;
 
-import javax.persistence.Entity;
+public class UiCustomer {
 
-public class Customer {
+    public float balance;
+    public int bookLost;
+    public int bookDelay;
+    public int bookDamage;
+    public int evaluation;
 
-    private float balance;
-    private int bookLost;
-    private int bookDelay;
-    private int bookDamage;
-    private int evaluation;
-
-    public Customer() {
-    }
-
-    public Customer(float balance, int bookLost, int bookDelay, int bookDamage, int evaluation) {
+    public UiCustomer(float balance, int bookLost, int bookDelay, int bookDamage, int evaluation) {
         this.balance = balance;
         this.bookLost = bookLost;
         this.bookDelay = bookDelay;
         this.bookDamage = bookDamage;
         this.evaluation = evaluation;
+    }
+
+    public UiCustomer() {
     }
 
     public float getBalance() {
@@ -60,5 +58,4 @@ public class Customer {
     public void setEvaluation(int evaluation) {
         this.evaluation = evaluation;
     }
-
 }
