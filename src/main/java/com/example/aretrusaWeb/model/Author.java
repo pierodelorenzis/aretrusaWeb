@@ -1,16 +1,12 @@
 package com.example.aretrusaWeb.model;
 
-import org.springframework.data.annotation.Id;
 
 public class Author {
 
-    @Id
-    private Long id;
     private String name;
     private String lastname;
 
-    public Author(Long id, String name, String lastname){
-        this.id = id;
+    public Author(String name, String lastname){
         this.name = name;
         this.lastname = lastname;
     }
@@ -19,13 +15,6 @@ public class Author {
 
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
